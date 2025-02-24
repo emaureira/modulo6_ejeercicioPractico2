@@ -50,7 +50,6 @@ function Home() {
 
   const handleSubmit = (event) => {
     event.preventDefault(); // Prevenir el comportamiento por defecto del formulario
-    // Crear un objeto con los datos
     const formData = {
       nombre: nombre,
       especialidad: especialidad,
